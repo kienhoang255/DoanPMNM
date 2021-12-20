@@ -30,6 +30,7 @@
 	<meta charset="UTF-8">
 	<title>Đăng nhập Admin</title>
 	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../css/style1.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 	<h2 align="center">Đăng nhập Admin</h2>
