@@ -6,6 +6,14 @@
 	}
 	$sql_chitiet = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_id='$id'"); 
 ?>
+<?php
+if(isset($_GET['id'])){
+    $id = $_GET['id'];
+}else{
+    $id = '';
+}
+$sql_ten = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_id='$id'");
+?>
 <!-- page -->
 	<div class="services-breadcrumb">
 		<div class="agile_inner_breadcrumb">
@@ -15,7 +23,13 @@
 						<a href="index.php">Trang chủ</a>
 						<i>|</i>
 					</li>
-					<li>Single Product 1</li>
+                    <?php
+                    while ($row_category = mysqli_fetch_array($sql_ten)){
+                        ?>
+                    <li><?php $row_category['sanpham_id'] ?><?php echo $row_category['sanpham_name']  ?></li>
+                        <?php
+                    }
+                    ?>
 				</ul>
 			</div>
 		</div>
@@ -74,6 +88,9 @@
 						</div>
 					</div>
 				</div>
+                <?php
+                    include('include/index.php');
+                ?>
 			</div>
 		</div>
 	</div>
