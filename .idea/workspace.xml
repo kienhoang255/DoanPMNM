@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0de2f23f-f1db-4d15-b534-3de3949557ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DoanPMNM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DoanPMNM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/giohang.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/giohang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -37,7 +39,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639902986976</updated>
       <workItem from="1639902988308" duration="109000" />
-      <workItem from="1639972957943" duration="313000" />
+      <workItem from="1639972957943" duration="508000" />
+      <workItem from="1639973472441" duration="87000" />
     </task>
     <servers />
   </component>

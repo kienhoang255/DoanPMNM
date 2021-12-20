@@ -168,7 +168,7 @@ if(isset($_POST['themgiohang'])){
                                         <input type="hidden" name="thanhtoan_product_id[]" value="<?php echo $row_1['sanpham_id'] ?>">
                                         <input type="hidden" name="thanhtoan_soluong[]" value="<?php echo $row_1['soluong'] ?>">
                                         <?php } ?>
-                                    <?php include('include/index.php');?>
+                                    <?php include('include/sendmail.php');?>
                                     <?php } ?>
                             </td>
                         </tr>
